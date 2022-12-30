@@ -1,1 +1,59 @@
-/* Copy and paste your CSS from CodePen into here */
+#main {
+    /*needed id on the main element that contains all other elements*/
+    font-family: sans-serif;
+    text-align: center;
+    background: #e0dddc;
+    font-size: 1.1rem;
+    border-radius: 1rem;  
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  #title {
+    /*to contain text string that describes the subject of the page*/
+    font-size: 50px;
+    padding: 10px 0px 0px 0px;
+  
+  }
+  
+  #img-div {
+    /* assigned to a figure or div element - figure assigned*/
+    background: white;
+    padding: 10px;
+    border-radius: 1rem;
+    border-width: 0px 0px 0px 0px;
+  }
+  
+  #image {
+    /* assigned to img element inside id img-div element*/
+    display: block;
+    border-radius: 1rem;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto 0 auto;
+  }
+  
+  #img-caption {
+    /* Needs to be assigned to figcaption inside img-div ID element*/
+    margin: 15px 0px 5px 0px;
+  }
+  
+  #header {
+    text-align: center;
+  }
+  
+  #tribute-info {
+    /* assigned to a element which contains textual content describing the subject of the page*/
+      max-width: 800px;
+      margin: 0 auto 0 auto;
+      text-align: left;
+      line-height: 2.2;
+  }
+  
+  #quote {
+    font-style: italic;  
+  }
+  
+  #tribute-link {
+    /* assigned to an anchor element which links to an outside site. Ensure target="_blank" */
+  }
